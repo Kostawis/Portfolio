@@ -176,6 +176,39 @@ a
 	box-sizing: border-box;
 	margin-top: 50px;
 }
+.cv
+{
+	background-color: #A92B2A;
+	height: 80px;
+	width: 200px;
+	border: solid 4px #870908;
+	text-align: center;
+	margin: auto;
+	margin-top: 90px;
+	border-radius: 20px;
+	box-sizing: border-box;
+	transition: all 0.2s ease-out;
+}
+.cv > a
+{
+	display: block;
+	height: 60px;
+	padding-top: 18px;
+	border-radius: 20px;
+	color: #FFF3B9;
+}
+.cv:hover
+{
+	cursor: pointer;
+	-webkit-box-shadow: 7px 5px 20px 2px rgba(0,0,0,0.6);
+	-moz-box-shadow: 7px 5px 20px 2px rgba(0,0,0,0.6);
+	box-shadow: 7px 5px 20px 2px rgba(0,0,0,0.6);
+}
+.kontakt
+{
+	margin-top: 60px;
+	display: block;
+}
 body::-webkit-scrollbar
 {
 	width:12px;
